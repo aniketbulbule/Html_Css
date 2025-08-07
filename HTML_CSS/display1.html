@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .box{
+      /* display:inline;  behave like inline not applies heigth and width*/
+      height: 100px;
+      width: 100px;
+      border: red solid 1px;
+      /* padding: 10px; */
+      padding: 25px;
+    }
+
+    /* span{
+        border: yellow solid 1px;
+        /* height: 100px;  not working on inline element*/  
+        /* width: 100px; */
+        /* margin: 10px;
+        padding: 10px; */
+        /* display: block;  */
+        /* behave like block ,whent we displayit will work mergin or padding */  
+        /* margin: 10px; */
+        /* padding: 10px; */
+    /* }  */
+
+    span{
+        border: yellow solid 1px;
+        display: inline-block;
+        margin: 5px; 
+        padding: 5px     ;
+       
+    }
+    
+    /* 
+    #block level element 
+    -start with new line 
+    -we set heigth & width
+    -take 100% width 
+    -ex.div,paragraph
+    -we can apply margin or padding in all side
+
+    #inline level element 
+    -not start with new line 
+    -we can set heigth & width
+    -take width content size (margin ,padding are 0) 
+     -we can apply margin or padding in horozontal size not vertically
+
+    */
+</style>
+<body>
+    <div class="box">
+        hello,this div tag
+    </div>
+    <span class="s1">Hello 1</span>
+    <span class="s2">Hello 2</span>
+
+    <span class="s2">Hello 2</span>
+    <span class="s2">Hello 2</span>
+    <span class="s2">Hello 2</span>
+    <span class="s2">Hello 2</span>
+    <span class="s2">Hello 2</span>
+    <span class="s2">Hello 2</span>
+    <span class="s2">Hello 2</span>
+    <span class="s2">Hello 2</span>
+</body>
+</html>

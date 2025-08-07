@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table border="">
+        <tr>
+            <th>Subject</th>
+            <th>Mark</th>
+            <th>Passed</th>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>98</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>12</td>
+            <td>yes</td>
+        </tr>
+    </table>
+
+    <!-- table tag : it used crete tables
+          ---a way to organize data in rows and columns 
+          --in html tables are created row by row
+          -->
+          -
+
+    <!-- <table> : in this we write tables tag tr, th ,td, 
+         <tr> : (table row)  --create the table row
+            <th> : (table hearder) in this we write table hatdline ,it will be see in bold 
+                <td> :(table data) : int his we are write table data
+        
+        -->
+
+        <!---------------------------------------------------------> <hr>
+       
+        <!-- <thead> ,<tbody>, <tfooter> -->
+        <!-- 
+        1) cell spacing :  the space around the cell is known as cell specing
+        -& to set the cell specing we have cell spcing attribute ( <cellspacing></cellspacing> )
+        & we give the vlaue in cellspacing
+        
+        2)  cell padding :
+
+
+        
+
+        <table border="">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+        </tr>
+        </thead>
+    
+        <tbode>
+
+            <tr>
+                <td>Aniket</td>
+                <td>23</td>
+            </tr>
+
+        </tbode>
+
+        <tfooter>
+
+            <tr>
+                <td>Vishal</td>
+                <td>25</td>
+            </tr>
+
+        </tfooter>
+       </table>
+
+       <!-- --------------------------------------------------- --> <hr>
+        
+      <!--  <caption> : int this we can specify the caption  or write the title name of table
+            <colgroup> : html elemnts defines a group of columns within a table
+            <col> :  we can style differant columns in  col
+            -->
+
+            <table border="">
+                <caption>My Marksheet</caption>
+            <colgroup>
+                <col style="background-color: aqua;">
+                <col span="2" style="background-color: rgb(255, 0, 115);">
+            </colgroup>
+            
+            <tr style="background-color: blueviolet;">
+                <th>id</th>
+                <th>subject</th>
+                <th>mark</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>English</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Math</td>
+                <td>34</td>
+            </tr>
+
+            </table>
+
+            <!-- cell spanning -> the process of merging or combining two or more adjacent cells in al table
+             & we can soan the cells in 2 ways
+             1)column -wise : to span cells column wise we have colspan attribute
+             2)row -wise : to span cells row- wise we have rowspan attribute
+
+             note: rowspan & colspan can be applied only on <td> & <th> tags & not on <tr> tag
+             ->
+            <!-- colspan , rowspan-->  <hr>
+
+            <table border="">
+                <tr >
+                    <th colspan="2">1</th>
+                    <th>2</th>
+                    
+                </tr>
+                <tr>
+                    <td rowspan="2">A</td>
+                    <td>B</td>
+                    
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>E</td>
+                    <td>F</td>
+                </tr>
+            </table>
+
+
+    
+</body>
+</html>

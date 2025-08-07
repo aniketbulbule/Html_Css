@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* footer{
+            padding: 15px,20px;
+        } */
+
+        footer {
+            position: fixed; 
+            bottom: 10px;        /* Stick to bottom */
+            left: 0;       /* Align left */
+            padding-left: 120px;
+            padding-right: 120px;
+            width: 100%;      /* Full width */
+            /* background-color: #f8f8f8; */
+            /* padding: 10px; */
+        }
+
+
+        .div1{ 
+            width: 100%;
+            height: 20px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;      
+        }
+
+        .div2{
+            display: flex;
+            gap: 15px;  /* space between numbers */
+        }
+
+        button{
+            padding: 1px 8px;
+            cursor: pointer;
+        }
+
+        u{
+            font-size: 14px;
+            font-weight: normal;
+            color: #333;
+            cursor: pointer; 
+
+        }
+
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="div1">
+        <button>Back</button> 
+        <div class="div2">
+            <u>1</u>
+            <u>2</u>
+            <u>3</u>
+            <u>4</u> 
+            <u>5</u>
+        </div>
+        <button>Next</button>
+    </div>
+    </footer>
+</body>
+</html>
