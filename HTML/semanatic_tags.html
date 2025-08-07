@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Navbar Example</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header{
+        background-color: rgb(224, 162, 82);
+        padding: 10px 20px;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-links{
+        display: flex;
+        list-style: none;
+    }
+
+    .nav-links li{
+        margin: 0px 15px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .logo {
+      height: 50px;
+      padding: 10px 20px;
+      border-radius: 50%;
+    }
+
+
+     main {
+      border: 1px solid black;
+      height: 600px;
+      padding: 20px;
+      background-color: blueviolet;
+    }
+
+    section {
+      display: flex;
+      justify-content: space-between;
+      background-color: aqua;
+      
+    }
+
+    .d1{
+        border: 1px black solid;
+        height: 300px;
+        width: 50%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    footer{
+        background-color: blanchedalmond;
+        height: 105px;
+    }
+    details{
+        padding-top: 5px;
+        margin-left: 12px;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 5px;
+       text-align: center;
+    }
+
+    span{
+        color: red;
+    }
+    
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <img class="logo" src="https://thf.bing.com/th/id/OIP.oDtSF_9VWes7FuSoskk3YAHaHa?w=169&h=180&c=7&r=0&o=7&cb=thfc1&dpr=1.2&pid=1.7&rm=3" alt="Logo" />
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+        <div class="d1"></div>
+        <div class="d1"></div>
+    </section>
+  </main>
+  <footer>
+    <details>
+        <summary><span>My Story</span></summary>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quibusdam eligendi odio. Sunt sit, asperiores culpa ut, laboriosam, at delectus vitae corporis exercitationem voluptatem in ea enim nihil iste error.
+    </details>
+    <p><span>Add Details :</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quibusdam eligendi odio. </p>
+    <p><span>Link :</span> <a href="https://google.com"> Google </a></p>
+  </footer>
+</body>
+</html>
