@@ -1,0 +1,84 @@
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* div{
+            border: red solid 1px;    
+        } */
+
+      img {
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+      }
+
+      .container {
+        position: relative;
+        height: 2000px;
+        background-color: aqua;
+        border: 2px solid red;
+      }
+
+      /* ------CSS Position Proprty------ */
+
+      .pic2 {
+        position: sticky;
+        /* in sticky we set elemnt where we wanr fixed */
+        top: 120px;
+        /* position will be fixed */
+        /* window fixed image whern we scro;; on weside image will not gone */
+        /* but here when scroll image is vanished */
+      }
+
+      .pic4 {
+        position: fixed;
+        /* position will be fixed */
+        /* window fixed image whern we scroll on weside image will not gone */
+      }
+
+      .box{
+            background-color:blueviolet;
+            height: 1000px;  
+        }
+    </style>
+
+
+
+
+
+    <!-- css position property -->
+    <!-- The position property in CSS defines how an element is positioned in the document. It affects how top, right, bottom, and left values are used to place the element. -->
+    <!-- by default is dtataic -->
+    <!-- position: static | relative | absolute | fixed | sticky;
+      
+      statix -we can not set paddin , marging , not 0 ,nothing (we can not mention top , bottom marging or padding)
+ -->
+    <div class="container">
+      <img
+        class="pic1"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmECk9MtasQbjdsO0smKt-iU9ad_KE942czHYpkiPkuhoWIzH7kP1l8_VyxefuJpwPaso&usqp=CAU"
+        alt=""
+      />
+
+      <img
+        class="pic2"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKCVeybStVHnbRffVRSqlvmkA5pnQCem0pesgDRr4gSHcNPxPxBjVMaqAVxnaRQOF_VaQ&usqp=CAU"
+        alt=""
+      />
+
+      <img
+        class="pic3"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjUUGpueviTMfx2yOSuddcE-SHwmz2n_CPg&s"
+        alt=""
+      />
+
+      <img
+        class="pic4"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcXQmcM4IWEkgh0VT4xJ7f5lIzCWTe4UeW9w&s"
+        alt=""
+      />
+    </div>
+
+    <div class="box"></div>

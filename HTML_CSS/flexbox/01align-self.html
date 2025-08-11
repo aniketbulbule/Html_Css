@@ -1,0 +1,78 @@
+
+
+
+
+<style>
+  .container {
+    background-color: beige;
+    border: 2px solid black;
+    display: flex;          
+    flex-direction: row;  
+    height: 800px;
+    /* justify-content: center;  */
+    /* align-items: center; */
+  }
+
+  .box {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 1px solid black;
+  }
+
+  #box1 {
+    background-color: aqua;
+    align-self: center;   /*  so we align self item */
+  }
+
+  #box2 {
+    background-color: rgb(255, 0, 13);
+  }
+
+  #box3 {
+    background-color: rgb(85, 0, 255);
+    align-self:flex-end;
+  }
+
+  #box4 {
+    background-color: rgb(17, 255, 0);
+  }
+</style>
+
+<div class="container">
+  <div class="box" id="box1"></div>
+  <div class="box" id="box2"></div>
+  <div class="box" id="box3"></div>
+  <div class="box" id="box4"></div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- 
+The align-self property in Flexbox is used to override the alignment for a single flex item along the cross axis (vertical axis if flex-direction: row).
+
+Key points:
+Works only on flex items inside a flex container.
+
+Overrides the container’s align-items property for that specific item.
+
+Accepts values like:
+
+auto → uses container’s align-items value (default)
+
+flex-start → aligns item at start of cross axis
+
+flex-end → aligns item at end of cross axis
+
+center → aligns item in middle
+
+stretch → item stretches to fill cross axis
+
+baseline → aligns item based on text baseline
+ -->

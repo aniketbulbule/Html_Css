@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* psedo selector :hover */
+        /* button-hover-ocacity-transition. */
+        button{
+
+            background-color: blueviolet;
+            border: none;
+            border-radius: 3px;
+            color: white; 
+            cursor: pointer;  
+        }
+
+        button:hover{
+            background-color: aqua; 
+            /* opacity: 0;    */
+            /* opacity: 0; then button is not visible  */
+            /* opacity: 0.7; */
+            /* it will work */
+            /* opacity: 0.1; */
+            /* to work ocacity smootly we use tansition property*/
+             /* transition: opacity 1s; */
+            /* to work ocacity smootly we use tansition property*/
+            /* it will take two values ocacity or how long transition will take that is 1s ,s means second   */
+            /* transition: background-color 1s; */
+            /* when we hover  */
+            transition: background-color 1s,
+            color 1s;
+                       box-shadow: 10px 10px 10px rgba(0, 0, 1, 0.841);
+            /* box-shadow: 100px 100px 100px rgba(0, 0, 1, 0.841); */
+        }
+    </style>
+<body>
+    <button>click here</button>
+</body>
+</html>
